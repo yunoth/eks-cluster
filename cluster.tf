@@ -1,5 +1,5 @@
 resource "aws_eks_cluster" "example" {
-  name     = "example"
+  name     = "eks-cluster"
   role_arn = "${aws_iam_role.example.arn}"
 
   vpc_config {
